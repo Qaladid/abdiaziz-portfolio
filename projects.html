@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projects - AMA</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="theme.js"></script>
+</head>
+
+<body>
+<header>
+    <h1 class="logo">AMA</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="projects.html" class="active">Projects</a>
+        <a href="certifications.html">Certifications</a>
+        <a href="contact.html">Contact</a>
+        <button id="themeToggle">Toggle Theme</button>
+    </nav>
+</header>
+
+<section class="content">
+    <h2>Projects</h2>
+
+    <h3>Data Engineering</h3>
+    <div class="project-card">
+        <h4>Real-Time Streaming Pipeline (Kafka + Spark + Snowflake)</h4>
+        <p>
+            Built a near real-time ingestion and transformation system using Kafka,
+            Apache Spark Structured Streaming, and Snowflake for analytics storage.
+        </p>
+    </div>
+
+    <div class="project-card">
+        <h4>Data Warehouse with dbt + BigQuery</h4>
+        <p>
+            Designed a star-schema warehouse and used dbt to orchestrate modular SQL
+            transformations with tests, documentation, and CI integration.
+        </p>
+    </div>
+
+    <h3>Machine Learning</h3>
+    <div class="project-card">
+        <h4>Healthcare ML Prediction Model</h4>
+        <p>
+            End-to-end ML pipeline including cleaning, feature engineering, model
+            training, evaluation, and serving via FastAPI.
+        </p>
+    </div>
+
+    <div class="project-card">
+        <h4>Customer Churn Prediction</h4>
+        <p>
+            Built a churn model with logistic regression and gradient boosting. 
+            Automated training on schedule using Airflow.
+        </p>
+    </div>
+</section>
+
+<footer>
+    <p>© 2025. Built by Abdiaziz Mohamed Ali.</p>
+</footer>
+
+</body>
+</html>

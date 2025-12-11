@@ -1,0 +1,72 @@
+:root {
+    --bg: #ffffff;
+    --text: #111111;
+    --accent: #3a76ff;
+}
+
+.dark {
+    --bg: #1a1a1a;
+    --text: #f1f1f1;
+    --accent: #6e9eff;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: Arial, sans-serif;
+    transition: 0.3s ease;
+}
+
+header {
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+}
+
+nav a {
+    margin-right: 1.2rem;
+    text-decoration: none;
+    color: var(--text);
+}
+
+nav a.active {
+    color: var(--accent);
+    font-weight: bold;
+}
+
+#themeToggle {
+    padding: 6px 14px;
+    cursor: pointer;
+}
+
+.hero {
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+.content {
+    max-width: 800px;
+    margin: auto;
+    padding: 2rem;
+}
+
+.project-card {
+    padding: 1rem;
+    margin-bottom: 1.2rem;
+    border-left: 4px solid var(--accent);
+    background: rgba(0,0,0,0.03);
+}
+
+.cert-list li {
+    margin-bottom: 0.5rem;
+}
+
+footer {
+    text-align: center;
+    padding: 2rem;
+    opacity: 0.6;
+}
